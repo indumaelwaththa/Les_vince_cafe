@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        body{
+            background-image: url(images/dreamy-restaurants-in-delhi.jpg);
+            background-attachment: fixed ;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+                body {
+      zoom: 50%;
+}
+        .header{
+            color: aliceblue;
+            padding: 20%;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 300px;
+
+        }
+        h1{
+            font-size: 100px;
+
+        }
+        p{
+            font-size: 20px;
+        }
+
+        ul li{
+            text-decoration: none;
+            display: flex;
+            list-style: none;
+        }
+        ul{
+            padding-left: 1200px;
+        }
+        ul li a{
+            text-decoration: none;
+            font-size: 25px;
+            color: #ffffff;
+            position: relative;
+            display: flex;
+            padding-left: 0%;
+            padding: 14px 16px;
+            align-items: last baseline;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+        }
+        ul li{
+            float: left;
+            margin: 0;
+            padding-left: 100px;
+            overflow: hidden;
+            float: left;
+            
+        }
+        .nav{
+            width: 100%;
+            height: 100px;
+            background-color: transparent;
+            margin-top: 0%;
+            margin-bottom: 100%;
+
+        }
+        .nav {
+            position:fixed;
+            top: 0;
+            right: 0%;
+            width: 100%;
+            padding-left: 500px;
+
+            
+        }
+        ul li :hover{
+            color: #cb6d58;
+        }
+        .nav ul li a.active{
+            color: #cb6d58;
+        }
+        .bg{
+            background-size: 100%;
+        }
+        .overlay{
+            top: 10%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .header p{
+            font-size: 30px;
+        }
+        .info{
+            display: flex;
+            padding-left: 250px;
+            margin-top: 1000px;
+        }
+        .phone{
+            width: 670px;
+            height: 600px;
+            opacity: 50%;
+            background-color: #ffffff;
+            margin-left: 50px;
+            background-image: url(images/phone.png);
+            background-repeat: no-repeat;
+            background-size:50%;
+            background-position: center;
+            color: transparent;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .phone:hover{
+            background-color: transparent;
+            background-image: none;
+            opacity: 100%;
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 30%;
+        }
+        .phone h2{
+            font-size: 70px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 80px;
+            padding-bottom: 10%;
+        }
+        .phone p{
+            font-size: 40px;
+            padding-bottom:100%;
+        }
+
+        .mail{
+            width: 670px;
+            height: 600px;
+            background-color: #ffffff;
+            margin-left: 50px;
+
+        }
+        .vist{
+            width: 670px;
+            height: 600px;
+            background-color: #ffffff;
+            margin-left: 50px;
+        }
+        .info{
+            width: 80%;
+            height: 900px;
+            margin-top: 90px;
+        }
+        .res h2{
+            color: #cb6d58;
+
+            font-size: 75px;
+            text-align: center;
+        }
+ 
+
+
+        .mail{
+            width: 670px;
+            height: 600px;
+            opacity: 50%;
+            background-color: #ffffff;
+            margin-left: 50px;
+            background-image: url(images/email.png);
+            background-repeat: no-repeat;
+            background-size:50%;
+            background-position: center;
+            color: transparent;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .mail:hover{
+            background-color: transparent;
+            background-image: none;
+            opacity: 100%;
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 30%;
+        }
+        .mail h2{
+            font-size: 70px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 80px;
+            padding-bottom: 10%;
+        }
+        .mail p{
+            font-size: 40px;
+            padding-bottom:100%;
+        }
+
+
+        .location{
+            width: 670px;
+            height: 600px;
+            opacity: 50%;
+            background-color: #ffffff;
+            margin-left: 50px;
+            background-image: url(images/location.png);
+            background-repeat: no-repeat;
+            background-size:40%;
+            background-position: center;
+            color: transparent;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .location:hover{
+            background-color: transparent;
+            background-image: none;
+            opacity: 100%;
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 30%;
+        }
+        .location h2{
+            font-size: 70px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 80px;
+            padding-bottom: 10%;
+        }
+        .location p{
+            font-size: 40px;
+            padding-bottom:100%;
+        }
+        .forres{
+            margin-top: 0%;
+            font-size: 40px;
+            color: #ff0008;
+            text-align: center;
+
+        }
+
+
+
+
+
+
+        /*feed back*/
+        .res{
+            background-color: rgba(0, 0, 0, 0.75);
+            width: 80%;
+            margin-top: 10%;
+            align-items: center;
+            margin-left:275px;
+            margin-bottom: 5%;
+
+        }
+        .res .al input , textarea{
+            background-color: transparent;
+            width: 600px;
+            color: #ffffff;
+            height: 100px;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            border-top:0 ;
+            border-left: 0;
+            border-right: 0;
+            margin-left: 300px;
+            padding-top: 80px;
+
+            font-size: 30px;
+        
+        }
+        .res input:focus{
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ddd;
+
+        }
+        .res textarea:focus{
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ddd;
+
+        }
+        .res ::placeholder{
+            color: #ffffff;
+            font-size: 30px;
+            text-align: left;
+            padding-top: 20%;
+        }
+        .res textarea{
+            box-sizing: border-box;
+            border-radius: 4px;
+            width: 1500px;
+            height: 300px;
+        }
+        .res textarea::placeholder{
+            padding-top: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .res h2{
+            padding-top: 5%;
+        }
+        button{
+            width: 500px;
+            height: 70px;
+            margin-left: 800px;
+            margin-top: 90px;
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:#cb6d58 ;
+            border: 2PX SOLID #cb6d58;
+            background-color: transparent;
+            margin-bottom: 50px;
+        }
+        button:hover{
+            color: #ffffff;
+            background-color: #cb6d58;
+            border: 2px solid #ffff;
+        }.res .conc{
+            color: white;
+            display: flex;
+            width: 200px;
+            font-size: 30px;
+            margin-left: 60%;
+            margin-top: 40px;
+    
+
+        }
+        .res .conc .c2{
+            margin-left: 30px;
+            padding-left: 60px;
+
+        }
+        .res .conc .c3{
+            margin-left: 30px;
+            padding-left: 60px;
+        }
+        .res .conc input{
+            width: 40px;
+            height: 40px;
+
+        }
+        .res .gen{
+            color: white;
+            display: flex;
+            width: 50px;
+            margin-left: 60px;
+            margin-top: 60px;
+        }
+        .conct{
+            color: #ffff;
+            font-size: 30px;
+            margin-left: 40%;
+
+        }
+        .lstq{
+            display: flex;
+            width: 80%;
+        }
+        .gent{
+            margin-left:20%;
+            color: #ffff;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+        .g1 input{
+            width: 40px;
+            height: 40px;
+        }
+        .g1{
+            font-size: 30px;
+            margin-left: 20%;
+        }
+        .g2 input{
+            width: 40px;
+            height: 40px;
+ 
+        }
+        .g2{
+            font-size: 30px;
+            margin-left: 100%;
+        }
+        .gen{
+            margin-left: 700px;
+        }
+        .lstq{
+            margin-left: 300px;
+        }
+        .tex{
+            margin-top: 60px;
+        }
+
+
+
+
+
+
+/*footer*/
+.footer{
+            font-size: 30px;
+            width: 100%;
+            height: 390px;
+            background-color: #8d493a;
+            color: #F8EDE3;
+            display: flex;
+        }
+        .footer .icons{
+            display: flex;
+            width: 100px;
+            height:70px;
+            margin-top: 50px;
+            margin-left: 0px;
+        }
+        .icons .fb{
+            width: 50px;
+            height: 50px;
+            padding-left: 120px;
+        }
+        .icons .ig {
+            width: 50px;
+            height: 50px;
+            padding-left: 120px;
+        }
+        .icons .wa{
+            width: 50px;
+            height: 50px;
+            padding-left: 120px;
+        }
+        .footer .lst p{
+            padding-left: 65%;
+            padding-top: 10px;
+            
+
+        }
+        .footer .conte{
+            width: 20%;
+            margin-left:800px;
+
+        }
+        .footer .lst{
+            width: 30%;
+            margin-right: 10%;
+        }
+
+        .footer .lg{
+            padding-left: 390px;
+        }
+
+
+/*footer*/
+        hr{
+            width: 600px;
+        }
+        .footer p{
+            font-size: 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="nav">
+        <ul><li><a href="home.html">Home</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="wines.html">Wine List</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact us.html" class="active">Contact Us</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="overlay">
+    <div class="bg">
+        <div class="header">
+
+             <h1>
+                Contact us
+            </h1>
+            <p>
+                Please don’t hesitate to get in touch with any questions or enquiries. We will always aim to reply as quickly as we can.        </p>
+-        </div>
+        
+    </div>
+    <hr>
+    <br>
+    <br>   <br>   <br>
+    <div class="info">
+        
+        <div class="phone">
+            <h2>Contact Number</h2><p>+94 76 546 3782<br><br>+94 76 546 4356</p>
+
+        </div>
+        <div class="mail">
+            <h2>Email</h2><p>info@lavincecafe.com</p>
+
+
+        </div>
+        <div class="location">
+            <h2>Visit Us</h2><p>No 200. D.S.Senanayaka St, Kandy</p>
+        </div>
+    </div>
+
+
+    <div class="forres">
+        <h3>For reservations, please call us: +94 76 123 4567</h3>
+    </div>
+
+    <div class="res">
+
+        <h2>Get in touch</h2>
+        <form action="con.php">
+        <div class="al">
+            <label for="name"></label>
+            <input type="text" id="name" name="name" value placeholder=" Enter your Name" required="required">
+
+            <label for="number">  </label>
+            <input type="tel" id="number" name="phone" placeholder="Phone Number" maxlength="10" required="required">
+<br><br>
+            <label for="email"> </label>
+            <input type="email" id="email" name="email"  placeholder="Email" required ="required">
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"  required>
+        
+
+            <br><br>
+            <input type="text" id="age" name="age" placeholder="Age" >
+
+        </div>
+            <br>
+            
+            <label for="massege"></label>
+            <textarea name="message" id="message" placeholder="Feedback" rows="6" ></textarea>
+
+            <br>
+            <button type="submit">SUBMIT</button>
+        </form>
+        
+
+        
+    </div>
+    <div class="footer">
+        <div class="lg">
+        <div class="icons">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr"> <img class="fb" src="images/fb.png" alt="" srcset="" ></a> 
+            <a href="https://www.instagram.com/"> <img class="ig" src="images/ig.png" alt="" srcset=""></a>
+            <img class="wa" src="images/wa.png" alt="" srcset="">
+        </div>
+        
+        </div>
+    
+        <div class="conte">
+            <h2>Opening Hours</h2>
+            <p>Monday to Saturday</p>
+            <p>Lunch:12 noon - 2.15 p.</p>
+            <p>Afternoon Tea : 2.30pm - 4pm</p>
+            <p>Dinner : 6pm - 10.30pm</p>
+            
+            
+        </div>
+        <div class="lst">
+        <p>© Les Vins Café 2024</p>
+        </div>
+     </div>
+    
+    
+    
+     </div>
+</body>
+</html>

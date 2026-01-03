@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+          body{
+
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+      
+
+                    body {
+    zoom: 50%;
+}
+        ul li{
+            text-decoration: none;
+            display: flex;
+            list-style: none;
+        }
+        ul{
+            padding-left: 1200px;
+        }
+        ul li a{
+            text-decoration: none;
+            font-size: 25px;
+            color: #ffffff;
+            position: relative;
+            display: flex;
+            padding-left: 0%;
+            padding: 14px 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+        }
+        ul li{
+            float: left;
+            margin: 0;
+            padding-left: 100px;
+            overflow: hidden;
+            float: left;
+            
+        }
+        .nav{
+            width: 100%;
+            height: 100px;
+            background-color: #000000;
+            margin-top: 0%;
+            margin-bottom: 100%;
+
+        }
+        .nav {
+            position:fixed;
+            top: 0;
+            right: 0%;
+            width: 100%;
+            padding-left: 500px;
+
+            
+        }
+        ul li :hover{
+            color: #cb6d58;
+        }
+        .nav ul li a.active{
+            color: #cb6d58;
+        }
+        .header p{
+            font-size: 30px;
+            padding-left: 160px;
+            padding-right: 160px;
+        }
+         
+        h1{
+            font-size: 40px;
+            color: #ffffff;
+
+        }
+        
+        .header h1{
+            font-size: 100px;
+        }
+        .header{
+            width: 100%;
+            height: 1300px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: aliceblue;
+        }
+        h1{
+            font-size: 100px;
+            padding-top: 20%;}
+        .bg{
+            background-image: url(images/foods/12..jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height:2500px;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+        
+        .bg .overlay {
+            top: 10%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);}
+        .men h3{
+            color: #cb6d58;
+            font-size: 50px;
+            text-align: center;
+        }
+        .men{
+            display: flex;
+            width: 100%;
+            height: 1000px;
+            margin-top: 10px
+        }
+        .starters{
+            background-image: url(images/starters.jpg);
+            background-size: 100%;
+            margin-top: 10%;
+            width: 18%;
+            height: 550px;
+            background-repeat: no-repeat;
+            margin-left: 90px;
+            background-color: #ffffff;
+        }
+        .main{
+            background-image: url(images/mains.jpg);
+            background-size: 100%;
+            margin-top:400px;
+            width: 18%;
+            height: 550px;
+            background-repeat: no-repeat;
+            margin-left:1%;
+            background-color: #ffffff;
+        }
+        .pas {
+            background-image: url(images/pas.jpg);
+            background-position: -100px -150px;
+            background-size: 160%;
+            margin-top:10%;
+            width: 18%;
+            height: 550px;
+            background-repeat: no-repeat;
+            margin-left:1%;
+            background-color: #ffffff;
+
+        }
+        .des{
+            background-image: url(images/dessert1.jpg);
+            background-size: 100%;
+            margin-top:400px;
+            width: 18%;
+            height: 550px;
+            background-repeat: no-repeat;
+            margin-left:1%;
+            background-color: #ffffff;
+           
+        }
+        .wine{
+            background-image: url(images/w.jpg);
+            background-size: 100%;
+            margin-top: 10%;
+            width: 18%;
+            height: 550px;
+            background-repeat: no-repeat;
+            margin-left: 40px;
+            background-color: #ffffff;
+        }
+        a {
+            text-decoration: none;
+            text-align: center;
+            align-items: center;
+
+        }
+        .men h2{
+            
+            color:#cb6d58;
+            font-size: 80px;
+            padding-top: 65%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        hr{
+            width: 1000px;
+        }
+        .footer{
+            width: 100%;
+            height: 350px;
+            background-color: #8d493a;
+            color: #F8EDE3;
+            display: flex;
+        }
+        .footer .icons{
+            display: flex;
+            width: 100px;
+            height:70px;
+            margin-top: 50px;
+            margin-left: 0px;
+        }
+        .icons .fb{
+            width: 50px;
+            height: 50px;
+            padding-left: 120px;
+        }
+        .icons .ig {
+            width: 50px;
+            height: 50px;
+            padding-left: 120px;
+        }
+        .icons .wa{
+            width: 50px;
+            height: 50px;
+            padding-left: 120px;
+        }
+        .footer .lst p{
+            font-size: 30px;
+            padding-left: 65%;
+            padding-top: 10px;
+        }
+        .footer .conte{
+            width: 20%;
+            margin-left:800px;
+
+        }
+        .footer .lst{
+            width: 30%;
+            margin-right: 10%;
+        }
+
+        .footer .lg{
+            padding-left: 390px;
+        }
+        .footer .conte p{
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul><li><a href="home.html">Home</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="wines.html">Wine List</a></li>
+            <li><a href="menu.html" class="active">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+            
+        </ul>
+    </div>
+    <div class="bg">
+        <div class="overlay">
+        <div class="header">
+    
+                <h1>French Cuisine</h1>
+                <p>Our cuisine has a provincial French accent. The regularly changing menu uses the best fresh and seasonal ingredients, features daily specials and ever popular dishes such as la cote de boeuf with sauce béarnaise; la soupe de poisson; and classic French cheese. Our Chefs are working constantly to innovate, bringing European influences to their dishes.</p>
+        </div>
+        
+<hr>
+
+         
+    
+    
+        <div class="men">
+        
+            <div class="starters">
+                <a href="starters.html">
+
+                <h2>Starters</h2> 
+
+                </a>
+    
+            </div>
+            <div class="main">
+                <a href="mains.html">
+
+                <h2>Mains</h2> 
+
+                </a>
+    
+            </div>
+            <div class="pas">
+
+                <a href="pastries.html">
+                
+
+                <h2>Pastries</h2> 
+
+                </a>
+    
+            </div>
+            <div class="des">
+
+                <a href="dessert.html">
+                
+
+                <h2>dessert</h2> 
+
+                </a>
+    
+            </div>
+
+            <div class="wine">
+
+                <a href="wines.html">
+                
+
+                <h2>Wines</h2> 
+
+                </a>
+    
+            </div>
+
+
+
+        </div>
+        
+        </div>
+    </div>
+    <div class="footer">
+        <div class="lg">
+        <div class="icons">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr"> <img class="fb" src="images/fb.png" alt="" srcset="" ></a> 
+            <a href="https://www.instagram.com/"> <img class="ig" src="images/ig.png" alt="" srcset=""></a>
+            <img class="wa" src="images/wa.png" alt="" srcset="">
+        </div>
+        
+        </div>
+
+        <div class="conte">
+            <h2>Opening Hours</h2>
+            <p>Monday to Saturday</p>
+            <p>Lunch:12 noon - 2.15 p.</p>
+            <p>Afternoon Tea : 2.30pm - 4pm</p>
+            <p>Dinner : 6pm - 10.30pm</p>
+            
+            
+        </div>
+        <div class="lst">
+        <p>© Les Vins Café 2024</p>
+        </div>
+     </div>
+
+
+</body>
+</html>
