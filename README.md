@@ -44,4 +44,3 @@ Learning front-end development
 
 Practicing HTML & CSS
 
-Portfolio demonstration
